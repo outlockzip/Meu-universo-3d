@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universe 3D</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <div id="interface">
+        <h1>UNIVERSE 3D</h1>
+        <p>EXPLORE THE INFINITE</p>
+        <div id="status">Inicializando universo...</div>
+        <div class="controles">
+            Arraste para girar · Scroll para aproximar
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
